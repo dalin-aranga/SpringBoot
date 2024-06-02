@@ -1,0 +1,78 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+ecommerce/nbproject/private/
+ecommerce/nbbuild/
+ecommerce/dist/
+ecommerce/nbdist/
+ecommerce/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+
+
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# Compiled output
+app/dist
+app/tmp
+app/out-tsc
+app/bazel-out
+
+# Node
+app/node_modules
+app/npm-debug.log
+app/yarn-error.log
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# Miscellaneous
+app/.angular/cache
+.sass-cache/
+app/connect.lock
+app/coverage
+app/libpeerconnection.log
+testem.log
+app/typings
+
+# System files
+.DS_Store
+Thumbs.db

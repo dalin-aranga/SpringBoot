@@ -1,0 +1,17 @@
+<app-navbar></app-navbar>
+<div class="mb-5"></div>
+    <div class="content" style="margin-top: -3rem;">
+      <div fxLayout="row wrap" fxLayoutAlign="left" fxLayoutGap="2%">
+            <mat-card (click)="goToProduct(a.product_id)" class="example-card" *ngFor="let a of getproduct " fxFlex="23%" fxLayoutGap="2%">
+              <img mat-card-image [src]="a.image" style="height:15rem;">
+                <mat-card-content>
+                <p>{{a.name}}</p>
+                <div class="addres_data">
+                  <p>{{a.price}}</p>
+                  <p>{{a.description}}</p>
+                </div>
+              </mat-card-content>
+            </mat-card>
+      </div>
+    </div>
+  
